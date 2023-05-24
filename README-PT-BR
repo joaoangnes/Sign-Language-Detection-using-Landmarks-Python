@@ -1,0 +1,54 @@
+Detecção de Linguagem de Sinais usando Pontos de Referência - Python
+-
+- Neste projeto, o objetivo principal é criar um modelo que identifique as letras do alfabeto em língua de sinais, excluindo as letras que requerem movimentos específicos para serem identificadas.
+
+## Estrutura dos Arquivos
+
+O repositório contém vários arquivos para treinamento do modelo de detecção. Aqui está um resumo das funcionalidades de cada arquivo:
+
+HandTrackingModule.py
+
+    - Este arquivo armazena todas as funções importantes para identificar os pontos de referência das mãos e parametrizar as bibliotecas utilizadas.
+    - Serve como arquivo base para todo o projeto.
+
+CollectImages.py
+
+    - Este arquivo cria as imagens que serão utilizadas no treinamento.
+    - Segue as instruções passo a passo exibidas na webcam.
+    - Captura 150 fotos com a mão direita e 150 fotos com a mão esquerda. (Todos os parâmetros podem ser facilmente modificados)
+
+CreateDataSet.py
+
+    - Este arquivo recupera todas as imagens coletadas e armazena os pontos de referência dos 20 pontos identificados pela biblioteca mediapipe em um arquivo 'pickle'.
+
+main.ipynb
+
+    - Este notebook Jupyter recebe os dados coletados, processa-os e treina um modelo para identificação.
+    - Normalização dos dados: ✅
+    - Balanceamento dos dados: ✅
+    - Ajuste de hiperparâmetros: Utilizando o método RandomizedSearchCV
+    - Modelo de Treinamento: RandomForestClassifier
+    - Modelo de Validação: Cross Validate
+
+    Após todas as validações, o modelo é salvo usando o pickle com o nome 'model.p'.
+
+## Bibliotecas Utilizadas
+
+- cv2
+- HandTrackingModule
+- Pickle
+- Os
+
+## Demonstração
+
+Modelo em funcionamento:
+
+
+## Lições Aprendidas
+
+Foi uma ótima experiência de aprendizado explorar a ciência de dados e concluir este projeto.
+Enfrentei muitas dificuldades no início para entender como cada biblioteca funcionava e confesso que ainda tenho muitas dúvidas, especialmente em relação ao desempenho da detecção dos pontos de referência usando a biblioteca mediapipe.
+
+Em resumo, este projeto proporcionou valiosas oportunidades de aprendizado e, apesar de alguns contratempos, consegui criar um modelo que identifica todas as letras estáticas do alfabeto da língua de sinais.
+
+Também criei outro repositório que segue a mesma estrutura, mas utiliza as distâncias principais dos pontos de referência das mãos como dados de entrada e inferência. Aqui está o link para o repositório:
