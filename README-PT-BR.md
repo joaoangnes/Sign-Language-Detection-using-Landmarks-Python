@@ -47,10 +47,12 @@ main.ipynb
 Modelo em funcionamento:
 
 Mão Direita:
-![Sign Language - LandMarks - Right](https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/a8f5fdc1-4b3d-423c-984e-333eec675004)
+
+<img src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/921901b6-9d83-4425-82f8-15e70ff40892" width="160">
 
 Mão Esquerda:
-![Sign Language - LandMarks - Left](https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/cf5283a8-2893-4f52-9499-f9dfa5084bb1)
+
+<img src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/04e49807-cf29-404e-8a96-d73cd92013e2" width="160">
 
 ## Lições Aprendidas
 
