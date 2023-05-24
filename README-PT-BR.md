@@ -59,4 +59,6 @@ Enfrentei muitas dificuldades no início para entender como cada biblioteca func
 
 Em resumo, este projeto proporcionou valiosas oportunidades de aprendizado e, apesar de alguns contratempos, consegui criar um modelo que identifica todas as letras estáticas do alfabeto da língua de sinais.
 
-Também criei outro repositório que segue a mesma estrutura, mas utiliza as distâncias principais dos pontos de referência das mãos como dados de entrada e inferência. Aqui está o link para o repositório:
+Também criei outro repositório que segue a mesma estrutura, mas utiliza as distâncias principais dos pontos de referência das mãos como dados de entrada e inferência.
+
+Aqui está o link para o repositório: https://github.com/joaoangnes/Sign-Language-Detection-using-Distances-Python/tree/main
