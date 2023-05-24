@@ -2,6 +2,9 @@ Detecção de Linguagem de Sinais usando Pontos de Referência - Python
 -
 - Neste projeto, o objetivo principal é criar um modelo que identifique as letras do alfabeto em língua de sinais, excluindo as letras que requerem movimentos específicos para serem identificadas.
 
+- Irá utilizar como dados as coordendas das landmarks da mão encontrada via webcam, tendo como referências os seguintes pontos:
+<img width="1073" alt="hand-landmarks" src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/b57347b6-7a5a-4132-bba2-7761222d9182">
+
 ## Estrutura dos Arquivos
 
 O repositório contém vários arquivos para treinamento do modelo de detecção. Aqui está um resumo das funcionalidades de cada arquivo:
@@ -43,6 +46,11 @@ main.ipynb
 
 Modelo em funcionamento:
 
+Mão Direita:
+![Sign Language - LandMarks - Right](https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/a8f5fdc1-4b3d-423c-984e-333eec675004)
+
+Mão Esquerda:
+![Sign Language - LandMarks - Left](https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/cf5283a8-2893-4f52-9499-f9dfa5084bb1)
 
 ## Lições Aprendidas
 
