@@ -64,3 +64,10 @@ Em resumo, este projeto proporcionou valiosas oportunidades de aprendizado e, ap
 Também criei outro repositório que segue a mesma estrutura, mas utiliza as distâncias principais dos pontos de referência das mãos como dados de entrada e inferência.
 
 Aqui está o link para o repositório: https://github.com/joaoangnes/Sign-Language-Detection-using-Distances-Python/tree/main
+
+
+## Referências
+
+https://www.youtube.com/watch?v=wa2ARoUUdU8&t=12s&ab_channel=Murtaza%27sWorkshop-RoboticsandAI
+https://www.youtube.com/watch?v=pDXdlXlaCco&ab_channel=NicholasRenotte
+https://www.youtube.com/watch?v=MJCSjXepaAM&t=2947s&ab_channel=Computervisionengineer

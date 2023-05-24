@@ -64,3 +64,10 @@ In summary, this project provided valuable learning opportunities, and despite s
 I have also created another repository that follows the same structure, but it uses the main hand landmark distances as input and inference data. 
 
 Here's the link to the repository: https://github.com/joaoangnes/Sign-Language-Detection-using-Distances-Python
+
+
+## References
+
+https://www.youtube.com/watch?v=wa2ARoUUdU8&t=12s&ab_channel=Murtaza%27sWorkshop-RoboticsandAI
+https://www.youtube.com/watch?v=pDXdlXlaCco&ab_channel=NicholasRenotte
+https://www.youtube.com/watch?v=MJCSjXepaAM&t=2947s&ab_channel=Computervisionengineer
