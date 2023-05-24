@@ -1,61 +1,54 @@
-
 Sign Language Detection using Landmarks - Python
 -
-- Nesse projeto, o objetivo principal é criar um modelo que identifique as letras do alfabeto em libras, sem contar as letras que necessitam de um certo movimento para ser identificadas.
+- In this project, the main objective is to create a model that identifies sign language alphabet letters, excluding letters that require specific movements to be identified.
 
+## File Structure
 
-
-
-## Estrutura dos Arquivos
-
-No repositório vão ter vários arquivos para ser possivel o treinamento do modelo detector, segue um resumo de funcionalidades de cada um:
+The repository contains several files for training the detection model. Here's a summary of each file's functionalities:
 
 HandTrackingModule.py
 
-    . Arquivo responsável, por armazenar todos as funções importantes para identificar os landmarks das mãos, hyperpametrizar as bibliotecas utilizadas.
-    . Arquivo base para o projeto inteiro.
+    - This file stores all the important functions for identifying hand landmarks and parameterizing the used libraries.
+    - It serves as the base file for the entire project.
 
 CollectImages.py
 
-    . Arquivo responsável, por criar as imagens que serão utilizadas em seu treinamento.
-    . Terá que seguir o passo a passo mostrado no display da webcam.
-    . 150 fotos com a mão direita e 150 fotos com a mão esquerda. (Todos os paramêtros, podem ser facilmente alterados)
+    - This file creates the images that will be used for training.
+    - It follows the step-by-step instructions displayed on the webcam.
+    - It captures 150 photos with the right hand and 150 photos with the left hand. (All parameters can be easily modified)
 
 CreateDataSet.py
 
-    . Arquivo responsável, por buscar todas as imagens que foram coletadas e armazenar em um arquivo 'pickle', as landamarks dos 20 pontos identificados pela biblioteca mediapipe.
+    - This file retrieves all the collected images and stores the landmarks of the 20 identified points from the mediapipe library in a 'pickle' file.
 
 main.ipynb
 
-    . Arquivo Jupyter, responsável por receber os dados coletados, tratar e treinar um modelo para identifação do mesmo.
-    . Normalização dos dados: ✅
-    . Balanceamento dos dados: ✅
-    . Hyperparametrização: Utilizando o método RandomizedSearchCV 
-    . Modelo de Treinamento: RandomForestClassifier
-    . Modelo de Validação: Cross Validate 
+    - This Jupyter notebook receives the collected data, processes it, and trains a model for identification.
+    - Data normalization: ✅
+    - Data balancing: ✅
+    - Hyperparameter tuning: Using the RandomizedSearchCV method
+    - Training Model: RandomForestClassifier
+    - Validation Model: Cross Validate
 
-    Após todas as validações é salvo o modelo via pickle, com o nome de 'model.p'
+    After all validations, the model is saved using pickle with the name 'model.p'.
 
-## Bibliotecas Utilizadas
+## Utilized Libraries
 
 - cv2
 - HandTrackingModule
 - Pickle
 - Os
 
+## Demonstration
+
+Functioning Model:
 
 
-## Demonstração
+## Lessons Learned
 
-Modelo em funcionamento:
+It was a great learning experience to delve into data science and complete this project.
+I faced many difficulties initially in understanding how each library worked, and I admit that I still have many doubts, particularly regarding the performance of landmark detection using the mediapipe library.
 
+In summary, this project provided valuable learning opportunities, and despite some setbacks, I managed to create a model that identifies all static sign language alphabet letters.
 
-## Aprendizados
-
-Foi muito aprender mais sobre ciencias de dados e realizar esse projeto.
-Tive muitas dificuldades no começo para entender como cada biblioteca funcionava e confesso que ainda tenho muitas duvidas, principalmente na parte de desempenho de detecção dos pontos de referência das landmarks da biblioteca mediapipe.
-
-Em resumo, foi de grande aprendizado realizar esse projeto, mesmo que com algumas falhas, consegui criar um modelo no qual identifica todas as letras do alfabeto de libras,que não contenham movimento.
-
-Criei também um outro repositorio, no qual utiliza a mesma estrutura, porém ele acaba tendo como dados de entrada e inferencia as distancias dos pontos principais das mãos, segue link para repositorio:
-
+I have also created another repository that follows the same structure, but it uses the main hand landmark distances as input and inference data. Here's the link to the repository:
