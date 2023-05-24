@@ -2,6 +2,9 @@ Sign Language Detection using Landmarks - Python
 -
 - In this project, the main objective is to create a model that identifies sign language alphabet letters, excluding letters that require specific movements to be identified.
 
+- It will use the coordinates of the hand landmarks found via webcam as data, with the following points as references:"
+<img width="1073" alt="hand-landmarks" src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/b57347b6-7a5a-4132-bba2-7761222d9182">
+
 ## File Structure
 
 The repository contains several files for training the detection model. Here's a summary of each file's functionalities:
@@ -43,6 +46,13 @@ main.ipynb
 
 Functioning Model:
 
+Right Hand:
+
+<img src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/921901b6-9d83-4425-82f8-15e70ff40892" width="160">
+
+Left Hand:
+
+<img src="https://github.com/joaoangnes/Sign-Language-Detection-using-Landmarks-Python/assets/74597614/04e49807-cf29-404e-8a96-d73cd92013e2" width="160">
 
 ## Lessons Learned
 
